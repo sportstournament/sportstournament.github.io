@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Sports Tournament</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <style>
+    /* Стили для заголовка */
+    .title {
+      text-align: center;
+      font-size: 36px;
+      margin-top: 100px;
+      color: #333;
+    }
+
+    /* Стили для иконки с анимацией */
+    .icon {
+      width: 100px;
+      height: 100px;
+      background-color: #ffcccb;
+      border-radius: 50%;
+      margin: 30px auto;
+      animation: spin 2s infinite linear;
+    }
+
+    /* Анимация вращения для иконки */
+    @keyframes spin {
+      0% {
+        transform: rotate(0deg);
+      }
+      100% {
+        transform: rotate(360deg);
+      }
+    }
+
+    /* Стили для описания с анимацией */
+    .description {
+      text-align: center;
+      font-size: 24px;
+      margin-bottom: 50px;
+      color: #555;
+      animation: fadein 2s;
+    }
+
+    /* Анимация появления для описания */
+    @keyframes fadein {
+      from {
+        opacity: 0;
+      }
+      to {
+        opacity: 1;
+      }
+    }
+
+    /* Стили для кнопок на другие лендинги */
+    .buttons {
+      text-align: center;
+    }
+
+    .buttons a {
+      display: inline-block;
+      margin: 10px;
+      padding: 12px 20px;
+      background-color: #007bff;
+      color: #fff;
+      text-decoration: none;
+      font-size: 18px;
+      border-radius: 4px;
+      transition: background-color 0.3s ease;
+    }
+
+    .buttons a:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+
+<body>
+  <h1 class="title">Sports Tournament</h1>
+  <div class="icon"></div>
+  <p class="description">A fun pastime, but also an opportunity to improve your sports skills. Are you ready to take on the challenge and become a real sports hero? Shoot down objects flying by with balls</p>
+  <div class="buttons">
+    <a href="pp.html">Privacy Policy</a>
+    <a href="tt.html">Terms & Conditions</a>
+    <a href="del.html">Data deleteion</a>
+  </div>
+</body>
+
+</html>
